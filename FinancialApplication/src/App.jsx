@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { BrowserRouter, Routes, Route} from 'react-router-dom'
-
+import Header from './components/Header'
 import HomePage from './pages/Home'
 import InvestmentPage from './pages/Investment'
 import SavingsPage from './pages/Savings';
@@ -14,7 +14,7 @@ import './App.css'
   return (
     <>
     
-    <h2>hello</h2>
+    <Header></Header>
     <BrowserRouter>
       <Routes>
         <Route index element = {<HomePage/>}/>
