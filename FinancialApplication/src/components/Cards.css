@@ -1,13 +1,27 @@
 .card {
-    background-color: #E0F2F1; /* Light blue background */
+    background-color: #fbfbfb; /* Light blue background */
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
     padding: 20px;
     margin: 10px;
     transition: transform 0.3s ease;
     width: 300px; /* Set a fixed width */
-    height: 200px; /* Set a fixed height */
+    height: auto; /* Set height to auto to accommodate content */
     overflow: hidden; /* Hide overflow content if any */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange children vertically */
+}
+
+.image-container {
+    max-width: 100%;
+    max-height: 200px; /* Limit the image height */
+    overflow: hidden; /* Prevents the image from overflowing its container */
+}
+
+.image-container img {
+    width: 100%;
+    height: auto; /* Ensures the image maintains its aspect ratio */
+    display: block; /* Ensures the image behaves as a block-level element */
 }
 
 .card:hover {
@@ -15,8 +29,9 @@
 }
 
 .label {
-    color: #37474F; /* Dark grey text color */
+    color: #000000; /* Dark grey text color */
     font-weight: bold;
+    margin-top: 10px; /* Add margin to separate text from image */
 }
 
 /* Additional styles for anchor tag */
@@ -27,4 +42,15 @@
 
 .card a:hover {
     text-decoration: underline;
+}
+
+.card-link {
+    text-decoration: none; /* Remove underline from links within the card */
+}
+.card h2 {
+    color: #333; /* Change heading text color */
+}
+
+.card label {
+    color: rgb(23, 70, 199); /* Change label text color */
 }
