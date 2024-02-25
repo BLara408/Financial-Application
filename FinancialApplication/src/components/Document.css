@@ -1,0 +1,23 @@
+/* Document.css */
+
+.card {
+    background-color: #E0F2F1; /* Light blue background */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    padding: 20px;
+    margin: 10px;
+    transition: height 0.3s ease; /* Transition for height change */
+    overflow: hidden; /* Hide overflow content if any */
+}
+
+.doc {
+    padding-bottom: 20px; /* Add some bottom padding to the document content */
+}
+
+h2 {
+    margin-bottom: 10px; /* Add margin below heading */
+}
+
+p {
+    word-wrap: break-word; /* Allow long words to break onto the next line */
+}

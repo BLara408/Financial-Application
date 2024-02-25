@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 import { FaHouse } from "react-icons/fa6"
+import './Cards.css'
 
-const Card = () => {
+const Card = ({labelText}) => {
     return (
-        <div>
-            
-            <h1>cards</h1>
+        <div className="card">
+            <label htmlFor='text'>{labelText}</label>
         </div>
     );
 };
