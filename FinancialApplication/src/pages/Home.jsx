@@ -12,10 +12,17 @@ const HomePage = () => {
     return (
         <div>
             <h1>Home</h1>
-            <Card labelText={"Test"}></Card>
-            <Document labelText={"Doc"} 
-            paragraphText={"lorem ajusdbiha as dijabwhiud aw d awd awnawdssasdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddds"} 
-            headingText={"Test"}>
+            <Card labelText={"Investign 101"}></Card>
+            <Document labelText={"Investing 101"} 
+            paragraphText={`lorem ajusdbiha as dijabwhiud aw d awd awnawdssasddddddddddddddddddddddd
+            ddddddddddddddddddddddddddddddddddddddddddddddddddds
+            sdddjanjicnaejicnjiencoienconeiocnwencijowenconweocnwe
+            ecwjiencjiwen cji wejic wje cjiwe cijw ecij wejic we
+            cmowencowe cojw eojc weoj cojwe coj weoc owje cjowec
+             jowe cowe ocj wejoc jowe cjiwe cjiw e
+             we jc qo cokq cwe 0 qo vojwe ovj ewjov weojmoqwdmi0q
+             qnwodiqn wodnqwdnoqwndoqndioqd`} 
+            headingText={"How to get into investing"}>
             </Document>
             <div className = "icon-container">
                 <Link to="/home"><FaHouse size={32} color = "lightblue" /></Link>
