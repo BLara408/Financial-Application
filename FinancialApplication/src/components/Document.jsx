@@ -14,7 +14,7 @@ const Document = ({ labelText, headingText, paragraphText }) => {
     }, [paragraphText]);
 
     return (
-        <div className="card" style={{ height: cardHeight }}>
+        <div className="doc-card" style={{ height: cardHeight }}>
             <label htmlFor='text'>{labelText}</label>
             <div className="doc">
                 <h2>{headingText}</h2>
