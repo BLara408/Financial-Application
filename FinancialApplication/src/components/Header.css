@@ -1,35 +1,42 @@
 .header {
-    padding: 20px;
-    background-color: #f1f1f1;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-  }
-  
-  .header a {
-    color: black;
-    text-decoration: none;
-    margin: 0 15px;
-  }
-  
-  .header .logo {
-    font-size: 25px;
-    font-weight: bold;
-  }
-  
-  .header .header-right a {
-    margin: 0 10px;
-  }
-  
-  .header .header-right a:hover {
-    color: #888;
-  }
-  
-  .logo-img {
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    top: 0;
-    left: 0;
+  padding: 20px;
+  background-color: #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: 'Bubblegum Sans', cursive; /* Use bubble font */
+  font-size: 30px;
+  font-weight: bold;
+  color: #333; /* Dark color for the logo */
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-right a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin: 0 15px;
+  padding: 10px 20px; /* Add padding to create button-like appearance */
+  border: 2px solid transparent; /* Add border for button effect */
+  border-radius: 20px; /* Add border radius for rounded corners */
+  transition: all 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+.header-right a:hover {
+  background-color: rgb(125, 243, 233); /* Change background color on hover */
+  color: #333; /* Change text color on hover */
+  border-color: rgb(24, 24, 24); /* Change border color on hover */
+}
+
+.logo-img {
+  width: 150px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
 }

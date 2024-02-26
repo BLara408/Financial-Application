@@ -1,6 +1,16 @@
-.icon-container {
+.card-container {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%; /* Adjust this value according to your needs */
+    flex-direction: column; /* Arrange cards vertically */
+    align-items: center;
+    height: 100vh; /* Set a height to make the container visible */
+}
+
+.top-cards {
+    display: flex;
+    justify-content: center; /* Center the cards horizontally */
+    margin-bottom: 20px; /* Add some margin between top and bottom cards */
+}
+
+.bottom-card {
+    max-width: 200px; /* Adjust the width of the bottom card as needed */
 }

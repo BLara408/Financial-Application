@@ -1,10 +1,12 @@
 import React from 'react';
 import './Header.css'
-import logo from '../assets/Bare.png'
+import icon from '../assets/icon.png'
 const Header = () => {
     return (
         <div className="header">
-            <a href="/" className="logo">Bare</a>
+            <a href="/" className="logo">
+                <img src={icon} className="logo-img"></img>
+            </a>
             <div className="header-right">
                 <a href="/home">Home</a>
                 <a href="/investment">Investment</a>
