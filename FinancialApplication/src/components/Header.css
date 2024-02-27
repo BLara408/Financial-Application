@@ -10,7 +10,7 @@
   font-family: 'Bubblegum Sans', cursive; /* Use bubble font */
   font-size: 30px;
   font-weight: bold;
-  color: #333; /* Dark color for the logo */
+  color: #f1f1f1; /* Dark color for the logo */
   text-decoration: none;
   margin-right: 20px;
 }
@@ -33,7 +33,7 @@
 .header-right a:hover {
   background-color: rgb(125, 243, 233); /* Change background color on hover */
   color: #333; /* Change text color on hover */
-  border-color: rgb(24, 24, 24); /* Change border color on hover */
+  border-color: rgb(255, 254, 254); /* Change border color on hover */
 }
 
 .logo-img {
