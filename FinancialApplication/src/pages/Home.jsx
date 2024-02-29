@@ -30,6 +30,18 @@ const HomePage = () => {
                 path={"/investment"}
                 image={savingImage}
             />
+             <Card 
+                labelText={"Investing"}
+                headingText={"Beginner Investing Guide"}
+                path={"/investment"}
+                image={savingImage}
+            />
+             <Card 
+                labelText={"Investing"}
+                headingText={"Beginner Investing Guide"}
+                path={"/investment"}
+                image={savingImage}
+            />
         </div>
     </div>
           
