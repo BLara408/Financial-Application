@@ -6,6 +6,7 @@ import Card from '../components/Cards';
 import Document from '../components/Document';
 import savingImage from '../assets/savings.jpg'
 import "./Home.css"
+import IncomeForm from '../components/IncomeForm';
 const HomePage = () => {
     return (
     <div className="card-container">
@@ -30,19 +31,8 @@ const HomePage = () => {
                 path={"/investment"}
                 image={savingImage}
             />
-             <Card 
-                labelText={"Investing"}
-                headingText={"Beginner Investing Guide"}
-                path={"/investment"}
-                image={savingImage}
-            />
-             <Card 
-                labelText={"Investing"}
-                headingText={"Beginner Investing Guide"}
-                path={"/investment"}
-                image={savingImage}
-            />
         </div>
+        <IncomeForm></IncomeForm>
     </div>
           
     );
