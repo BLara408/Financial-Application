@@ -9,32 +9,20 @@ import "./Home.css"
 import IncomeForm from '../components/IncomeForm';
 const HomePage = () => {
     return (
-    <div className="card-container">
-        <div className="top-cards">
-            <Card 
-                labelText={"Savings:"}
-                headingText={"Learn the strategies of saving money."}
-                path={"/savings"}
-                image={savingImage}
+
+        <div >
+            <Document
+            headingText={"Journey To financial Literacy"}
+            paragraphText={`Hello! Glad you made it here to learn about financial literacy. 
+            Bare financial is a financial platform made to help you make more informed decisions with
+            your money. Here you can learn about topics like investing, saving and general financial tips.`}
             />
-            <Card 
-                labelText={"Investing"}
-                headingText={"Beginner Investing Guide."}
-                path={"/investment"}
-                image={investmentImage}
-            />
+            <Card headingText={"Getting started on your financial literacy path" } path={"/savings"} image={savingImage} labelText={"Click here to get started"}></Card>
+
         </div>
-        <div className="bottom-card">
-            <Card 
-                labelText={"Investing"}
-                headingText={"Beginner Investing Guide"}
-                path={"/investment"}
-                image={savingImage}
-            />
-        </div>
-        <IncomeForm></IncomeForm>
-    </div>
-          
+        
+   
+    
     );
 };
 
